@@ -1,0 +1,11 @@
+# Copy to config.toml (git-ignored) and edit. The server runs without it: all accounts, no default, no archive.
+
+# Accounts (SMTP addresses) exposed by the server. Empty list = all accounts in Outlook.
+allowed_accounts = []
+
+# Used when a tool is called without an account / folder.
+default_account = "me@example.com"
+
+# Optional local archive store (e.g. a PST). Only searched/listed when a tool is called with
+# include_archive=true, which should happen only when the user explicitly asks. Use the store's display name.
+# archive_store = "my-archive"

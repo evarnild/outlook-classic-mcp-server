@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+*.log
+# personal settings and local scratch scripts (may contain account names / mailbox details)
+config.toml
+scratch/
