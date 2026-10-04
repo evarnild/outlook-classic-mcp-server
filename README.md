@@ -138,3 +138,7 @@ See `config.example.toml`.
 draft to yourself (`[MCP TEST] smoke test draft`) in your default account's Drafts folder; delete test drafts manually.
 `verify_paging_live.py` pages through all unread mail of each account and compares the total with Outlook's own
 unread counters. The tests discover your accounts at runtime and print metadata only, never message bodies.
+
+## License
+
+[MIT](LICENSE)
