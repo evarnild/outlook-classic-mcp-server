@@ -63,7 +63,7 @@ def local(y, mo, d, h=0, mi=0, s=0):
 
 
 class FakeFolderRef:
-    FolderPath = "\\me@example.com\Inbox"
+    FolderPath = r"\\me@example.com\Inbox"
     StoreID = "STORE"
 
 
